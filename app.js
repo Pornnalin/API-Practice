@@ -69,12 +69,7 @@ const req = async (search) => {
       createPara("<b>Year</b>", checkValue(item.year), divPara);
       createPara("<b>Genres</b>", checkValue(genresNames), divPara);
       createPara("<b>Rating</b>", checkValue(item.rating), divPara);
-      console.log(genresNames);
-      // createPara("Status", checkValue(element.status), divCard);
-
-      // console.log(
-      //   `Image :${element.images.jpg.image_url}\nTitle : ${element.title}\nSeason : ${element.season}\nYear : ${element.year}\nGenres : ${genresNames}\nStatus:${element.status}`
-      // );
+   
     }
   }
 };
